@@ -1,4 +1,4 @@
-# MIA
+# MyTime
 
 ## Local development
 
