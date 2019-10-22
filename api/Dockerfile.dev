@@ -1,0 +1,9 @@
+FROM node:12-alpine
+
+WORKDIR /srv
+COPY package.json yarn.lock ./
+RUN yarn
+
+EXPOSE 4000
+
+CMD ["yarn", "dev"]
